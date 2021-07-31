@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image2">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="396dp"
+        android:layout_height="392dp"
+        android:background="@drawable/textbackgrounf"
+        android:backgroundTint="#C4FFFFFF"
+        android:fontFamily="@font/aguafina_script"
+        android:gravity="clip_horizontal|clip_vertical|start|center_horizontal|fill_horizontal|center_vertical"
+        android:lineSpacingExtra="1sp"
+        android:text="@string/love_they_say_is_in_the_eyes_of_the_beholder_and_this_for_sure_is_true_n_you_made_me_see_life_in_a_new_light_n_you_made_me_work_on_my_insecurities_and_open_up_to_not_just_love_you_but_myself_n_loving_is_so_easy_and_i_wouldn_t_want_to_change_that_thank_you_for_loving_me_the_way_you_do_and_opening_my_life_and_heart_to_love_n_happy_birthday"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textDirection="firstStrongRtl"
+        android:textIsSelectable="false"
+        android:textSize="30sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.498"
+        app:lineHeight="40sp" />
+
+
+    <Button
+        android:id="@+id/Button2"
+        android:layout_width="162dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/textbackgrounf"
+        android:text="@string/next"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.935"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
