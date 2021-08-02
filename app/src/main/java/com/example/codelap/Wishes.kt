@@ -15,23 +15,13 @@ class Wishes : AppCompatActivity() {
         val view = binding.root
         setContentView(view)
 
+        binding.Button2.setOnClickListener {
+            val intent = Intent(this, Wish2::class.java)
+            startActivity(intent)
 
-
-
-
-
-
+        }
 
 
     }
-
-
-
-
-
-
-
-
-
 
 }
